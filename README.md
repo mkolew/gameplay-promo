@@ -13,10 +13,9 @@
 
 https://github.com/user-attachments/assets/31e5a69d-6722-45ec-ade0-1e3abaff3e36
 
-**[The Last Space Voyager — promo video](https://www.youtube.com/watch?v=TidWI8QBDq0)**. Every
-frame came out of the running game: the opener is a scene the skill added to the project, the
-gameplay is one three-minute take played by a human and sampled into four windows, and the track was
-already in the repo.
+**[The Last Space Voyager](https://spacevoyager.funksome.com)**. Every frame came out of the running
+game: the opener is a scene the skill added to the project, the gameplay is one three-minute take
+played by a human and sampled into four windows, and the track was already in the repo.
 
 ## Install
 
