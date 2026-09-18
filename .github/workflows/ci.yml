@@ -1,0 +1,31 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  # Manifests, SKILL.md and the links between them. No ffmpeg, so this answers in seconds
+  # and is the check that fails when an install or a mid-run reference would break.
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run verify
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The beat detector shells out to ffmpeg for every measurement, so the tests are
+      # meaningless without it — and it is the skill's only runtime dependency.
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: ffmpeg -version | head -1
+      - run: npm test

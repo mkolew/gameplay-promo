@@ -1,0 +1,12 @@
+{
+  "name": "gameplay-promo",
+  "version": "0.2.1",
+  "private": true,
+  "description": "Claude Code skill that films a game and cuts it into a promo video — opener, gameplay, closing card, scored to music",
+  "type": "module",
+  "scripts": {
+    "test": "node --test skills/gameplay-promo/scripts/beats.test.mjs",
+    "verify": "node scripts/verify-skill.mjs"
+  },
+  "license": "MIT"
+}
