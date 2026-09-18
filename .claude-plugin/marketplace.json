@@ -1,0 +1,16 @@
+{
+  "name": "gameplay-promo",
+  "description": "Film your game and cut it into a promo video: a staged opener on the main character, gameplay sampled from a take you play yourself, and a closing card — scored to a track from your own project.",
+  "owner": {
+    "name": "Marjan Kolev",
+    "url": "https://github.com/mkolew"
+  },
+  "plugins": [
+    {
+      "name": "gameplay-promo",
+      "source": "./",
+      "description": "Film a game and cut it into a promo video — a staged opener on the main character, gameplay sampled out of one long played take, a closing title card, and a music track chosen from the project, with the cuts landing on the beat. Captures real footage from the running game rather than recreating it, and needs only ffmpeg and Node.",
+      "category": "media"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gameplay-promo",
+  "description": "Film a game and cut it into a promo video — a staged opener on the main character, gameplay sampled out of one long played take, a closing title card, and a music track chosen from the project, with the cuts landing on the beat. Captures real footage from the running game rather than recreating it, and needs only ffmpeg and Node.",
+  "version": "0.2.1",
+  "license": "MIT",
+  "author": {
+    "name": "Marjan Kolev",
+    "url": "https://github.com/mkolew"
+  },
+  "homepage": "https://github.com/mkolew/gameplay-promo",
+  "repository": "https://github.com/mkolew/gameplay-promo",
+  "keywords": [
+    "video",
+    "trailer",
+    "gameplay",
+    "godot",
+    "unity",
+    "ffmpeg",
+    "store-listing"
+  ]
+}

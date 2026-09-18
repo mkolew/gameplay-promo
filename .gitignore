@@ -1,0 +1,8 @@
+# Output of the skill itself — renders are large and never belong in git
+promo-output*/
+
+# OS / editor
+.DS_Store
+**/.DS_Store
+
+node_modules/
