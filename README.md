@@ -53,7 +53,7 @@ video framework. Tempo is found with ffmpeg's own audio filters.
 
 Most projects cannot yet film themselves. The skill checks, proposes, and **waits for you**:
 
-|                      |                                                                              |
+| Capability           | Why                                                                          |
 | -------------------- | ---------------------------------------------------------------------------- |
 | A way to write video | without it there is no promo                                                 |
 | A film mode          | hides control chrome — key legends, touch pads, pause and fullscreen buttons |
@@ -69,7 +69,7 @@ written from documented features and say so.
 
 ## Scripts
 
-|                          |                                                                                                                             |
+| Script                   | What it does                                                                                                                |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | `scripts/find-music.mjs` | lists the audio already in a project, longest first, with tempo. Collapses the copies game repos keep in each engine's tree |
 | `scripts/film.mjs`       | runs each shot command and verifies what came back — resolution, duration, and whether the middle frame is black            |
